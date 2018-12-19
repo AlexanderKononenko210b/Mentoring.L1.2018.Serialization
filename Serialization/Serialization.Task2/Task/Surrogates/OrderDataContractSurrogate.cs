@@ -12,6 +12,8 @@ namespace Task.Surrogates
     /// </summary>
     public class OrderDataContractSurrogate : IDataContractSurrogate
     {
+        #region Implement public methods
+
         /// <summary>
         /// Get object to serialize.
         /// </summary>
@@ -48,6 +50,8 @@ namespace Task.Surrogates
         {
             return obj;
         }
+
+        #endregion
 
         #region Not implement public methods 
 

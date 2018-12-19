@@ -1,6 +1,6 @@
-﻿using Serialization.Task1.Models;
-using System.IO;
+﻿using System.IO;
 using System.Xml.Serialization;
+using Serialization.Task1.Models;
 
 namespace Serialization.Task1
 {
